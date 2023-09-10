@@ -1,0 +1,10 @@
+Command: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+Note: This command sets the execution policy to "Bypass" for the current session, allowing you to run scripts.
+
+
+Command: & C:/Users/AKSHAY/.virtualenvs/todolist-sIB28KLe/Scripts/Activate.ps1
+& C:/Users/AKSHAY/.virtualenvs/todo_list-j0hgwbIk/Scripts/Activate.ps1
+Note: This should activate your virtual environment without encountering the script execution error.
+
+Command: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Default
+Note: Once you've finished working in your virtual environment, it's a good practice to reset the execution policy to its previous state for security reasons. This can be done by giving above command.
